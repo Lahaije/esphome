@@ -8,7 +8,7 @@ static const char *TAG = "empty_binary_sensor.binary_sensor";
 
 void EmptyBinarySensor::setup() {
 	ESP_LOGD("main", "Hello World THIS IS A MESSAGE");
-    this->publish_state(True);
+    this->publish_state(true);
 }
   
 void EmptyBinarySensor::update() {
