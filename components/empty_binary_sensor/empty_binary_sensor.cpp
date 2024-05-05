@@ -7,10 +7,12 @@ namespace empty_binary_sensor {
 static const char *TAG = "empty_binary_sensor.binary_sensor";
 
 void EmptyBinarySensor::setup() {
-    
+	ESP_LOGD("main", "Hello World THIS IS A MESSAGE");
+    publish_state(True);
 }
   
 void EmptyBinarySensor::update() {
+	ESP_LOGD("main", "Hello World THIS IS A MESSAGE");
 
 }
 
