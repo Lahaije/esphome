@@ -1,7 +1,7 @@
 import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome import automation
-from esphome.components import uart, binary_sensor, sensor, text_sensor
+from esphome.components import binary_sensor, sensor, text_sensor
 from esphome.const import (
     CONF_ID,
     CONF_HUMIDITY,
@@ -24,12 +24,11 @@ from esphome.const import (
 )
 
 MULTI_CONF = True
-DEPENDENCIES = ['uart']
 AUTO_LOAD = ['binary_sensor', 'sensor', 'text_sensor']
 
 clima_ns = cg.esphome_ns.namespace('clima')
 
-Clima = clima_ns.class_('Clima', cg.Component, uart.UARTDevice)
+Clima = clima_ns.class_('Clima', cg.Component)
 
 CONF_BRIGHTNESS_EAST = "brightness_east"
 CONF_BRIGHTNESS_WEST = "brightness_west"
