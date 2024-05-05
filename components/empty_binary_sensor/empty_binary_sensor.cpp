@@ -12,7 +12,6 @@ void EmptyBinarySensor::setup() {
 }
   
 void EmptyBinarySensor::update() {
-	ESP_LOGD("main", "Hello World THIS IS A MESSAGE");
 
 }
 
