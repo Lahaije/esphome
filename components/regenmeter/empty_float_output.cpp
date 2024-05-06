@@ -7,7 +7,7 @@ namespace empty_float_output {
 static const char *TAG = "empty_float_output.output";
 
 void EmptyFloatOutput::setup(){
-
+    this->publish_state(10.0);
 }
 
 void EmptyFloatOutput::write_state(float state){
