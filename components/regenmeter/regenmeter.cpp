@@ -1,5 +1,5 @@
 #include "esphome/core/log.h"
-#include "regenmeter.h"
+#include "regenmeterAAP.h"
 
 namespace esphome {
   namespace regenmeter {
