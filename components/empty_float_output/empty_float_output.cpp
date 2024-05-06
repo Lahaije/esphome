@@ -4,7 +4,7 @@
 namespace esphome {
 namespace empty_float_output {
 
-static const char *TAG = "empty_float_output.output";
+static const char *TAG = "regenmeter.output";
 
 void EmptyFloatOutput::setup(){
 
