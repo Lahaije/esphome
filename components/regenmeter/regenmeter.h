@@ -6,7 +6,7 @@
 namespace esphome {
   namespace regemmeter {
 
-    class EmptyFloatOutput : public output::FloatOutput, public Component {
+    class RegenOutput : public output::FloatOutput, public Component {
       public:
         void setup() override;
         void write_state(float state) override;
