@@ -6,7 +6,7 @@ namespace esphome {
 
     static const char *TAG = "regenmeter.output";
 
-    void RegenOutput::setup(){
+    void regenmeter::RegenOutput::setup(){
 
     }
 
